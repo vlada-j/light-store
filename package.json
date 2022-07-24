@@ -1,0 +1,30 @@
+{
+  "name": "light-store",
+  "version": "1.0.0",
+  "description": "Test for light MongoDB like in-memory database",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlada-j/light-store.git"
+  },
+  "keywords": [
+    "lokijs",
+    "in-memory",
+    "nosql",
+    "nodejs"
+  ],
+  "author": "Vlada Janošević <vladajanosevic@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vlada-j/light-store/issues"
+  },
+  "homepage": "https://github.com/vlada-j/light-store#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "loki-fs-cipher-adapter": "^1.0.2",
+    "lokijs": "^1.5.12"
+  }
+}
